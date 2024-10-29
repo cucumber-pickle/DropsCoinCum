@@ -72,10 +72,6 @@ http://127.0.0.1:6969
 http://user:pass@127.0.0.1:6969
 ```
 
-`delay_account`: Delay between processing different accounts (in seconds) - the minimum and maximum values are taken randomly
-
-`cycle_delay`: Delay between different cycles of operations (in seconds) - the minimum and maximum values are taken randomly
-
 ## How to get tgWebAppData (query_id / user_id)
 
 1. Login telegram via portable or web version
@@ -94,7 +90,7 @@ copy(decodeURIComponent(sessionStorage['telegram-apps/launch-params']).split('tg
 query_id=AA....
 user=%7B%22id%....
 ```
-7. add it to `data.txt` file or create it if you dont have one
+7. add it to `query.txt` file or create it if you dont have one
 
 
 ## This bot helpfull?  Please support me by buying me a coffee: 
