@@ -106,7 +106,18 @@ class Drops:
             return response.json()
         else:
             return None
-        
+
+    def set_proxy(self, proxy):
+        self.session.proxies = {
+            "http": proxy,
+            "https": proxy,
+        }
+        if '@' in proxy:
+            host_port = proxy.split('@')[-1]
+        else:
+            host_port = proxy.split('//')[-1]
+        return host_port
+
     def tasks(self, token: str):
         url = "https://api.drops-tgcoin.com/tasks"
         self.headers.update({ 
