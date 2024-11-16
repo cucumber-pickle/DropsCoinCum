@@ -75,7 +75,7 @@ class Drops:
                     return None
             except (requests.Timeout, requests.ConnectionError) as e:
                 print(
-                    f"{Fore.CYAN + Style.BRIGHT}[ {datetime.now().astimezone(wib).strftime('%x %X %Z')} ]{Style.RESET_ALL}"
+                    f"{Fore.CYAN + Style.BRIGHT}[ {datetime.now().strftime('%x %X %Z')} ]{Style.RESET_ALL}"
                     f"{Fore.WHITE + Style.BRIGHT} | {Style.RESET_ALL}"
                     f"{Fore.RED + Style.BRIGHT}Request Timeout.{Style.RESET_ALL}"
                     f"{Fore.WHITE + Style.BRIGHT} Retrying {attempt + 1}/{retries} {Style.RESET_ALL}",
@@ -115,7 +115,7 @@ class Drops:
                     return None
             except (requests.Timeout, requests.ConnectionError) as e:
                 print(
-                    f"{Fore.CYAN + Style.BRIGHT}[ {datetime.now().astimezone(wib).strftime('%x %X %Z')} ]{Style.RESET_ALL}"
+                    f"{Fore.CYAN + Style.BRIGHT}[ {datetime.now().strftime('%x %X %Z')} ]{Style.RESET_ALL}"
                     f"{Fore.WHITE + Style.BRIGHT} | {Style.RESET_ALL}"
                     f"{Fore.RED + Style.BRIGHT}Request Timeout.{Style.RESET_ALL}"
                     f"{Fore.WHITE + Style.BRIGHT} Retrying {attempt + 1}/{retries} {Style.RESET_ALL}",
@@ -144,7 +144,7 @@ class Drops:
                     return None
             except (requests.Timeout, requests.ConnectionError) as e:
                 print(
-                    f"{Fore.CYAN + Style.BRIGHT}[ {datetime.now().astimezone(wib).strftime('%x %X %Z')} ]{Style.RESET_ALL}"
+                    f"{Fore.CYAN + Style.BRIGHT}[ {datetime.now().strftime('%x %X %Z')} ]{Style.RESET_ALL}"
                     f"{Fore.WHITE + Style.BRIGHT} | {Style.RESET_ALL}"
                     f"{Fore.RED + Style.BRIGHT}Request Timeout.{Style.RESET_ALL}"
                     f"{Fore.WHITE + Style.BRIGHT} Retrying {attempt + 1}/{retries} {Style.RESET_ALL}",
@@ -173,7 +173,7 @@ class Drops:
                     return None
             except (requests.Timeout, requests.ConnectionError) as e:
                 print(
-                    f"{Fore.CYAN + Style.BRIGHT}[ {datetime.now().astimezone(wib).strftime('%x %X %Z')} ]{Style.RESET_ALL}"
+                    f"{Fore.CYAN + Style.BRIGHT}[ {datetime.now().strftime('%x %X %Z')} ]{Style.RESET_ALL}"
                     f"{Fore.WHITE + Style.BRIGHT} | {Style.RESET_ALL}"
                     f"{Fore.RED + Style.BRIGHT}Request Timeout.{Style.RESET_ALL}"
                     f"{Fore.WHITE + Style.BRIGHT} Retrying {attempt + 1}/{retries} {Style.RESET_ALL}",
@@ -202,7 +202,7 @@ class Drops:
                     return None
             except (requests.Timeout, requests.ConnectionError) as e:
                 print(
-                    f"{Fore.CYAN + Style.BRIGHT}[ {datetime.now().astimezone(wib).strftime('%x %X %Z')} ]{Style.RESET_ALL}"
+                    f"{Fore.CYAN + Style.BRIGHT}[ {datetime.now().strftime('%x %X %Z')} ]{Style.RESET_ALL}"
                     f"{Fore.WHITE + Style.BRIGHT} | {Style.RESET_ALL}"
                     f"{Fore.RED + Style.BRIGHT}Request Timeout.{Style.RESET_ALL}"
                     f"{Fore.WHITE + Style.BRIGHT} Retrying {attempt + 1}/{retries} {Style.RESET_ALL}",
@@ -232,7 +232,7 @@ class Drops:
                     return False
             except (requests.Timeout, requests.ConnectionError) as e:
                 print(
-                    f"{Fore.CYAN + Style.BRIGHT}[ {datetime.now().astimezone(wib).strftime('%x %X %Z')} ]{Style.RESET_ALL}"
+                    f"{Fore.CYAN + Style.BRIGHT}[ {datetime.now().strftime('%x %X %Z')} ]{Style.RESET_ALL}"
                     f"{Fore.WHITE + Style.BRIGHT} | {Style.RESET_ALL}"
                     f"{Fore.RED + Style.BRIGHT}Request Timeout.{Style.RESET_ALL}"
                     f"{Fore.WHITE + Style.BRIGHT} Retrying {attempt + 1}/{retries} {Style.RESET_ALL}",
